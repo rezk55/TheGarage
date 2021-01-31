@@ -114,7 +114,7 @@ $(document).ready(function() {
 
     })
 
-    //active nav with scroll
+    //active nav with scroll or scrollspy
     $(window).scroll(function() {
         var currentScroll = $(this).scrollTop();
         if (currentScroll <= 409) {
